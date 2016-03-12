@@ -1405,3 +1405,9 @@ var Link = (function(undefined) {
 	
 	return Link;
 })();
+
+// CommonJS export table
+// allows the script to be loaded using require().
+if (typeof exports !== 'undefined') {
+    exports.link = Link;
+}
