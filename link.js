@@ -1408,6 +1408,6 @@ var Link = (function(undefined) {
 
 // CommonJS export table
 // allows the script to be loaded using require().
-if (typeof exports !== 'undefined') {
-    exports.link = Link;
+if (typeof module !== 'undefined') {
+    module.exports = Link;
 }
